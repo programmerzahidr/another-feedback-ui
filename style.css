@@ -1,0 +1,218 @@
+/* google font */
+/* font-family: 'Poppins', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* google font */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+body{
+    width: 100%;
+    height: 850px;
+    background: #136c8f;
+}
+.feedback-area{
+    width: 1200px;
+    height: 800px;
+    margin: 50px auto;
+    background-color: #ffff;
+    background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 5% -5%, 300% -100%;
+    position: relative;
+}
+.feedback-area .feedback-txt{
+    width: 450px;
+    height: 250px;
+    padding: 80px 40px 10px 80px;
+    text-align: justify;
+}
+.feedback-txt h1{
+    font-size: 45px;
+    color: #472246;
+    line-height: 60px;
+}
+
+.rating-area{
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 120px;
+    left: 580px;
+}
+.rating-area .first-rating{
+    width: 430px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #F7F2F8;
+}
+.rating-area .first-rating img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.rating-area .first-rating img:nth-child(1){
+    margin-left: 17px;
+}
+.rating-area .first-rating p{
+    text-transform: capitalize;
+    color: #472246;
+    margin-left: 5px;
+}
+
+.second-rating{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.rating-area .second-rating{
+    width: 430px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #F7F2F8;
+}
+.rating-area .second-rating img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.rating-area .second-rating img:nth-child(1){
+    margin-left: 17px;
+}
+.rating-area .second-rating p{
+    text-transform: capitalize;
+    color: #472246;
+    margin-left: 5px;
+}
+.third-rating{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+.rating-area .third-rating{
+    width: 430px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #F7F2F8;
+}
+.rating-area .third-rating img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.rating-area .third-rating img:nth-child(1){
+    margin-left: 17px;
+}
+.rating-area .third-rating p{
+    text-transform: capitalize;
+    color: #472246;
+    margin-left: 5px;
+}
+
+.feedback-areablog{
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+}
+.client-feedback{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.client-feedback .blogone{
+    width: 320px;
+    height: 250px;
+    padding: 20px 10px 10px 15px;
+    background-color: #ad07ab;
+    position: relative;
+    border-radius: 20px;
+}
+.blogone img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+}
+.blogone-client{
+    position: absolute;
+    top: 20px;
+    text-transform: capitalize;
+    color: #ffff;
+    left: 90px;
+}
+.blogone-client .identity{
+    color: #dd57db;
+}
+.blogone-clienttxt{
+    text-align: justify;
+    color: #ffff;
+    margin: 10px;
+}
+
+.client-feedback .blogtwo{
+    width: 320px;
+    height: 250px;
+    padding: 20px 10px 10px 15px;
+    background-color: #960e93;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+}
+.blogtwo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+}
+.blogtwo-client{
+    position: absolute;
+    top: 20px;
+    text-transform: capitalize;
+    color: #ffff;
+    left: 90px;
+}
+.blogtwo-clienttxt{
+    text-align: justify;
+    color: #ffff;
+    margin: 10px;
+}
+.client-feedback .blogthree{
+    width: 320px;
+    height: 250px;
+    padding: 20px 10px 10px 15px;
+    background-color: #511F50;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border-radius: 20px;
+}
+.blogthree img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+}
+.blogthree-client{
+    position: absolute;
+    top: 20px;
+    text-transform: capitalize;
+    color: #ffff;
+    left: 90px;
+}
+.blogthree-clienttxt{
+    text-align: justify;
+    color: #ffff;
+    margin: 10px;
+}
